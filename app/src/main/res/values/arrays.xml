@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="list_1">
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_2">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_3">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_4">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_5">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_6">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_7">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_8">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+    <integer-array name="list_9">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+    </integer-array>
+</resources>
