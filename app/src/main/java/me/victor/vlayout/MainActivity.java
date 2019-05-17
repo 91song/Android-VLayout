@@ -37,8 +37,9 @@ public class MainActivity extends AppCompatActivity {
 //        onePlusNHelper.setColWeights(new float[]{50.0f});
 //        onePlusNHelper.setAspectRatio(2.0f);
         adapters.addAdapter(new GridAdapter(getResources().getIntArray(R.array.list_5), onePlusNHelper));
+        LinearLayoutHelper linearHelper = new LinearLayoutHelper(20);
         adapters.addAdapter(new LinearAdapter(getResources()
-                .getIntArray(R.array.list_1), new LinearLayoutHelper(10)));
+                .getIntArray(R.array.list_1), linearHelper));
         ColumnLayoutHelper columnHelper = new ColumnLayoutHelper();
         columnHelper.setWeights(new float[]{50.0f, 50.0f});
         adapters.addAdapter(new GridAdapter(getResources().getIntArray(R.array.list_2), columnHelper));
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         columnHelper6.setWeights(new float[]{14.28f, 14.28f, 14.28f, 14.28f, 14.28f, 14.28f});
         adapters.addAdapter(new GridAdapter(getResources().getIntArray(R.array.list_7), columnHelper6));
         GridLayoutHelper gridHelper = new GridLayoutHelper(4);
+        gridHelper.setGap(20);
         adapters.addAdapter(new GridAdapter(getResources()
                 .getIntArray(R.array.list_8), gridHelper));
         StaggeredGridLayoutHelper staggeredGridHelper = new StaggeredGridLayoutHelper(3);
